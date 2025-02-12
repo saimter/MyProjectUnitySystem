@@ -12,9 +12,7 @@ public class DelegateSample : MonoBehaviour
     //  이때 매개변수의 경우 타입만 기재하는 것도 가능합니다.
 
     delegate void DelegateTest();
-
     delegate string DelgateText(float x);
-
     delegate int DelgateInt(float x);
 
 
@@ -38,7 +36,7 @@ public class DelegateSample : MonoBehaviour
         //  delegate는 함수가 아닌 타입이기 때문
         //  매개 변수로도 활용이 가능하고 return 타입으로 잡아주는 것도 가능
 
-        //  2. 델리게이트 체인(Delegate Cjhain)
+        //  2. 델리게이트 체인(Delegate Chain)
         //  delegate 는 += 를 통해 대리할 함수를 더 추가 할 수 있ㄱ -=를 통해
         //  대리한 함수를 제거 하는 것도 가능하다.
         dt = Attack;

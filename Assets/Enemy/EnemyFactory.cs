@@ -25,9 +25,5 @@ public class EnemyFactory : MonoBehaviour
             default:
                 throw new System.Exception("생성 실패");
         }
-
     }
-
-
-
 }
