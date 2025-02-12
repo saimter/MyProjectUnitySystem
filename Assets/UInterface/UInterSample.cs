@@ -34,6 +34,21 @@ public class UInterSample : MonoBehaviour, IPointerClickHandler
     //  3. 오브젝트에 콜라이더를 연결
     //  4. 카메라에 Physics RayCaster 컴포넌트를 연결
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    // IPointerClickHandler
+    //  해당 I를 추가하면 마우스를 클릭 또는 터치할 때 한번만 호추되는 이벤트
+    //  누르고 뗏을 경우 호출
+
+    //IPointerDownHandler
+    //누르는 순간에 호출되는 마우스 클릭/터치 이벤트
+
+    //IPointerUpHandler
+
+    //IPointerDragHandler
+
+
+    //IPointerDownHandler
+    // https://docs.unity3d.com/kr/530/Manual/SupportedEvents.html
     void Start()
     {
         
